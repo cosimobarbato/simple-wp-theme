@@ -22,6 +22,7 @@
       <?php else : ?>
         <?php echo wpautop('Sorry, no posts were found');  ?>
       <?php endif; ?>
+      <?php comments_template(); ?>
     </div>
     <div class="sidebar">
       <?php if(is_active_sidebar('sidebar')) : ?>
